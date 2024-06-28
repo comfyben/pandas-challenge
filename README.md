@@ -53,11 +53,11 @@ spending_bins = [0, 585, 630, 645, 680]
 labels = ["<$585", "$585-630", "$630-645", "$645-680"]
 ```
   - Include the following metrics in the table:
-    - Average math score
-    - Average reading score
-    - % passing math (the percentage of students who passed math)
-    - % passing reading (the percentage of students who passed reading)
-    - % overall passing (the percentage of students who passed math AND reading)
+      - Average math score
+      - Average reading score
+      - % passing math (the percentage of students who passed math)
+      - % passing reading (the percentage of students who passed reading)
+      - % overall passing (the percentage of students who passed math AND reading)
 - Scores by School Size
   - Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
   - Use the following code to bin the per_school_summary
